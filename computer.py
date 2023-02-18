@@ -1,2 +1,6 @@
+import random
+
 class Computer():
-    pass
+
+    def __init__(self) -> None:
+        pass
