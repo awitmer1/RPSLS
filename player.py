@@ -10,6 +10,7 @@ class Player():
     def throw(self):
         player_throw = input("What move would you like to perform?")
         print(f'Player throws {player_throw}')
+        return player_throw
         
 
 
@@ -18,8 +19,8 @@ class Player():
 
 # print(player_one.games_won)
 # print(player_one.move_list)
-# player_one.throw()
-# print("Testing")
+# player_throw = player_one.throw()
+# print(player_throw)
 
 
 

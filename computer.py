@@ -10,6 +10,7 @@ class Computer(Player):
     def throw (self):
         comp_move = random.choice(self.move_list)
         print(f'Computer throws {comp_move}')
+        return comp_move
 
 
 
