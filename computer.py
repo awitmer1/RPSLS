@@ -7,12 +7,13 @@ class Computer(Player):
         super().__init__()
         pass
 
-    def random_choice (self):
+    def throw (self):
         comp_move = random.choice(self.move_list)
+        print(f'Computer throws {comp_move}')
 
 
 
-player_one = Computer(Player)
+# player_one = Computer(Player)
 
-print(player_one.games_won)
-print(player_one.move_list)
+# print(player_one.games_won)
+# print(player_one.move_list)
