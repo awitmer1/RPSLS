@@ -8,4 +8,11 @@ class Computer(Player):
         pass
 
     def random_choice (self):
-        choice = random.choice(self.move_list)
+        comp_move = random.choice(self.move_list)
+
+
+
+player_one = Computer(Player)
+
+print(player_one.games_won)
+print(player_one.move_list)
