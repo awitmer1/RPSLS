@@ -5,12 +5,12 @@ class Player():
     def __init__(self) -> None:
         self.games_won = 0
         self.move_list = ["Rock", "Paper", "Scissors", "Lizard", "Spock"]
-        pass
+        self.choosen_move = ''
 
-    def throw(self):
-        player_throw = input("What move would you like to perform?")
-        print(f'Player throws {player_throw}')
-        return player_throw
+    # def throw(self):
+    #     player_throw = input("What move would you like to perform?")
+    #     print(f'Player throws {player_throw}')
+    #     return player_throw
         
 
 
