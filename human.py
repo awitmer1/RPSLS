@@ -12,7 +12,11 @@ class Human(Player):
         for move in self.move_list:
             print(f'{index}:{move}')
             index += 1
-        user_input = int(input("Select number corelating to move: "))
+        user_input = int(input("Select number correlating to move: "))
+        if user_input > 4:
+            print("Sorry, please choose a correctly numbered move!")
+            self.throw()
+
 
         self.chosen_move = self.move_list[user_input]
-        print(f"You have chosen {self.chosen_move}")
+        print(f"You have chosen {self.chosen_move}\n")

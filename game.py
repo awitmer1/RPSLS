@@ -22,7 +22,6 @@ class Game():
             self.player_one = Computer()
             self.player_two = Computer()
 
-
     def display_rules (self):
         print("""Here are the rules: \n \n
         Rock crushes Scissors
@@ -128,23 +127,10 @@ class Game():
                 print(f'Spock vaporizes Rock - Player two wins the round!')
 
         if self.player_one.games_won == 2:
-            print("We have a winner! Player one wins the game!")
+            print("\nWe have a winner! Player one wins the game!\n")
         elif self.player_two.games_won == 2:
-            print("We have a winner! Player two wins the game!")
+            print("\nWe have a winner! Player two wins the game!\n")
 
 
 round_one = Game()
-round_one.choose_game_type()
 round_one.run_game()
-
-
-
-# def test_logic(self):
-#     while self.player_one.games_won <2 and self.player_two.games_won <2:
-#         self.player_one.throw()
-#         self.player_two.throw()
-#         if self.player_one.chosen_move == 'Rock' and self.player_two.chosen_move == 'Paper':
-#             self.player_two.games_won += 1
-
-
-print("Testing")
