@@ -19,4 +19,4 @@ class Human(Player):
 
 
         self.chosen_move = self.move_list[user_input]
-        print(f"You have chosen {self.chosen_move}\n")
+        print(f"\nYou have chosen {self.chosen_move}\n")

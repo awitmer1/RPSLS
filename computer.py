@@ -10,5 +10,5 @@ class Computer(Player):
     def throw (self):
         comp_move = random.choice(self.move_list)
         self.chosen_move = comp_move
-        print(f'Computer throws {comp_move}')
+        print(f'Computer throws {comp_move}\n')
         return comp_move
